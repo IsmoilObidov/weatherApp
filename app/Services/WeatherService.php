@@ -92,7 +92,7 @@ class WeatherService
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'http://dataservice.accuweather.com/currentconditions/v1/' . $city_code . '?apikey=pWFAPDj0UpDSFKkdUijZGssbTXr0bHf8',
+            CURLOPT_URL => 'http://dataservice.accuweather.com/currentconditions/v1/' . $city_code . '?apikey=vNIHCzpMi4Gu3NL4XBVC0H9vIMJG6OWs',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -114,7 +114,7 @@ class WeatherService
         $curl = curl_init($city);
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://dataservice.accuweather.com/locations/v1/search?q=' . $city . '&apikey=pWFAPDj0UpDSFKkdUijZGssbTXr0bHf8',
+            CURLOPT_URL => 'https://dataservice.accuweather.com/locations/v1/search?q=' . $city . '&apikey=vNIHCzpMi4Gu3NL4XBVC0H9vIMJG6OWs',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
