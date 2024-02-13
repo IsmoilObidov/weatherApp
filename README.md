@@ -8,16 +8,6 @@
 
   <p align="center">
     Специальное тестовое задание для проверки моих знаний.
-    <br/>
-    <br/>
-    <a href="https://github.com/IsmoilObidov/weatherApp"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/IsmoilObidov/weatherApp">View Demo</a>
-    .
-    <a href="https://github.com/IsmoilObidov/weatherApp/issues">Report Bug</a>
-    .
-    <a href="https://github.com/IsmoilObidov/weatherApp/issues">Request Feature</a>
   </p>
 </p>
 
@@ -38,18 +28,15 @@ Laravel ^10.10
 Pattern MVC
 ```
 
-## Getting Started
-
-## Built With
+## Settings
 
 Необходимые настройки :
 ```sh
 PHP ^8.1
 Laravel ^10.10
-MariaDB ^10.8
 ```
 
-## Getting Started
+## Set up
 
 * git 
 
@@ -63,7 +50,7 @@ composer install
 ```
 
 
-### Prerequisites
+### Requirements
 
 Начинаем:
 
@@ -101,7 +88,3 @@ php artisan weather Tashkent mail gmail@gmail.com
 ```sh
 php artisan weather Tashkent telegram chat_id
 ```
-
-## Roadmap
-
-See the [open issues](https://github.com/IsmoilObidov/weatherApp/issues) for a list of proposed features (and known issues).
