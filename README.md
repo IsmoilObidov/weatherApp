@@ -23,8 +23,6 @@
 
 Необходимые настройки :
 ```sh
-PHP ^8.1
-Laravel ^10.10
 Pattern MVC
 ```
 
@@ -41,7 +39,7 @@ Laravel ^10.10
 * git 
 
 ```sh
-git clone https://github.com/IsmoilObidov/ABDigitalTest.git
+git clone https://github.com/IsmoilObidov/weatherApp.git
 ```
 
 * для установки библиотеки нашего проекта необходима 
