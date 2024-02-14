@@ -21,7 +21,6 @@
 
 ## Built With
 
-Необходимые настройки :
 ```sh
 Pattern MVC
 ```
